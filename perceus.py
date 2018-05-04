@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 perceus = commands.bot(command_prefix = '$', description = 'A demo Discord Chat Bot built using Discord.py')
-token = 'NDQyMDA5NTM0OTgzMTc2MjAy.Dc4lEw.LM0BHxmiOVEDQl6VLTcQP78J2mU'
+token = ''
 
 @perceus.event
 async def on_ready():
